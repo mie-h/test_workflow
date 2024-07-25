@@ -1,8 +1,9 @@
 name: Octo Organization CI
 
 on:
-  push:
-    branches: [ $default-branch ]
+  push: branches: [ "main" ] 
+    # branches: 
+    # - 'main'
   pull_request:
     branches: [ $default-branch ]
 
